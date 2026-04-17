@@ -11,3 +11,14 @@
 ```bash
   python audio_transcriber_script.py /path/to/video-file /path/to/result-file
 ```
+
+## Структура 
+```
+text-extractor-task/
+├── audio_transcriber_script.py           # скрипт для транскрибации видео
+├── video/                     # видео для обработки
+├── result.txt                 # результат обработки
+├── .gitignore
+├── requirements.txt           # зависимости проекта
+└── README.md
+```
